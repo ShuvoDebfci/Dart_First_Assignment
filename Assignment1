@@ -1,0 +1,27 @@
+/*Declare two constant variables "a" and "b" with any integer values of your choice.
+Perform addition, subtraction, multiplication, division, and modulus directly on "a"
+and "b".
+Print the results of each operation to the console using appropriate messages.
+*/
+
+void main () {
+  const int a = 7;
+  const int b = 3;
+  print('a = $a, b = $b');
+
+
+  int jogFal = a + b;       //Addition
+  print('Addition: $a + $b = $jogFal');
+
+  int biogFal = a - b;      //Subtraction
+  print('Subtraction: $a - $b = $biogFal');
+
+  int gunFal = a * b;       // Multiply
+  print('Multiply: $a * $b = $gunFal');
+
+  double vagFal = a / b;    // Division
+  print('Division: $a / $b = $vagFal  ');
+
+  int vagSesh = a % b;      // Modulus
+  print('Modulus: $a % $b = $vagSesh');
+}
